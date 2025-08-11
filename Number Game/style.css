@@ -1,0 +1,42 @@
+body {
+    font-family: Comic Sans MS, cursive;
+    text-align: center;
+    background-color: #ffe4f0;
+    margin: 0;
+    padding: 20px;
+    transition: background-color 0.5s ease;
+}
+
+h1 {
+    color: #ff0080;
+    font-size: 2.5rem;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    background-color: #ff80c0;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4da6;
+}
+
+#message {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+#emoji {
+    font-size: 4rem;
+    margin-top: 20px;
+}
